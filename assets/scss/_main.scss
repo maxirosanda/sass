@@ -1,0 +1,27 @@
+.post{
+    background-color: $colorPrimario;
+    border-radius: 5px;
+    padding:15px;
+    color: white;
+
+    h5 {
+        font-size: $titulo;
+    }
+
+    p {
+        font-size:$parrafo;
+    }
+
+    .boton {
+        border: 0;
+        border-radius: 5px;
+        padding: 8px 15px;
+        color:$colorBlanco;
+        background-color:$colorSecundario;
+        &:hover{
+           background-color:$colorSecundarioHover ;
+        }
+
+    }
+
+}
